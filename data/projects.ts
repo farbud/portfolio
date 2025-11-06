@@ -10,7 +10,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "E-Commerce Mini Store",
-    description: "یک فروشگاه کوچک با Next.js و Tailwind",
+    description: "یک فروشگاه کوچک با Next.js و Tailwind که شامل صفحات Home، Product Details، Cart، Checkout و Invoice است." ,
     image: "/shop (1).jpg",
     link: "https://fshop-ctt2.vercel.app",
   },
