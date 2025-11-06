@@ -39,7 +39,7 @@ export function ProjectCard({ project }: Props) {
           href={project.github}
           className="text-gray-400  hover:text-blue-400 hover:underline font-semibold "
         >
-         GitHub
+          GitHub
          </Link>
       </div>
     </motion.div>
