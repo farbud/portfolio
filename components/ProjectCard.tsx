@@ -29,19 +29,21 @@ export function ProjectCard({ project }: Props) {
         <p className="text-gray-600 dark:text-gray-300 mb-4">
           {project.description}
         </p>
-        <Link
-          href={project.link}
-          className="text-blue-500 hover:underline font-semibold"
-        >
-          مشاهده پروژه
-        </Link>
+        <div className="sm:flex-row sm:justify-center flex flex-col items-center gap-2 mt-4">
+          <Link
+            href={project.link}
+            className="text-blue-500 hover:underline font-semibold"
+          >
+            مشاهده پروژه
+          </Link>
 
-        <Link
-          href={project.github}
-          className="text-gray-400  hover:text-blue-400 hover:underline font-semibold "
-        >
-          GitHub
-        </Link>
+          <Link
+            href={project.github}
+            className="text-gray-400  hover:text-blue-400 hover:underline font-semibold "
+          >
+            GitHub
+          </Link>
+        </div>
       </div>
     </motion.div>
   );
