@@ -17,7 +17,7 @@ export function Hero() {
           👋 سلام، من فربدم
         </h1>
         <p className="text-lg sm:text-xl mb-6">
-          توسعه‌دهنده‌ی فرانت‌اند هستم، متخصص در&nbsp;
+      توسعه‌دهنده‌ی فرانت‌اند هستم، کارآموز در&nbsp;
           <bdi dir="ltr" className="font-semibold text-blue-500">
             React
           </bdi>{" "}
