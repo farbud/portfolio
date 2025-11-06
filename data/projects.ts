@@ -18,7 +18,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "Finance Tracker",
-    description: "اپ مدیریت مالی با نمودار و فرم تراکنش",
+    description: "اپ مدیریت مالی با Next.js، TypeScript و Context API برای پیگیری درآمد و هزینه" ,
     image: "/dashbord.jpg",
     link: "https://finance-tracker-dashbord.vercel.app",
   },
